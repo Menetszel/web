@@ -23,20 +23,80 @@ body {
     background-color: var(--blue);
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
+    z-index: 3;
 }
 
-h1 {
+#left {
+    width: 350px;
+    margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;
+}
+
+#right {
+    width: 112.5px;
+    height: 250px;
+    border-left: .30em dashed black;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 4;
+}
+
+#title {
     font-family: 'Montserrat', sans-serif;
     position: relative;
+    left: 20px;
     top: 5px;
-    left: 50px;
+    margin: auto;
 }
+
+#errorno {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: fit-content;
+    top: 5px;
+    margin: auto;
+}
+
+#name {
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    position: absolute;
+    display: inline;
+    top: 135px;
+    width: fit-content;
+    margin: auto;
+    left: -42px;
+    transform: rotate(90deg);
+    font-weight: 100;
+    font-size: 35px;
+}
+
 h2 { 
-    font-family: 'Roboto', sans-serif;
-    margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px; 
+    font-family: 'Roboto', sans-serif; 
     font-size: 20px;
+    display: inline;
 }
 .email {
     font-style: italic;
     font-family: 'Roboto Mono', serif;
+    display: inline;
+}
+
+.hole {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    z-index: 5;
+}
+
+#hole1 {
+    top: -10px;
+    left: 375px;
+}
+
+#hole2 {
+    bottom: -10px;
+    left: 375px;
 }
