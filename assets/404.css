@@ -67,4 +67,9 @@ body {
     padding: 10px;
     left: 65vw;
     top: 50vh;
+    transition-duration: 1s;
+}
+
+#back:hover {
+    background-color: white;
 }
