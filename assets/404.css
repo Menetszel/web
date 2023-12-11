@@ -59,9 +59,10 @@ body {
 #back {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    font-size: 0.5vw;
+    font-size: 1vw;
     color: white;
-    border: white 2px;
+    border-color: 2px;
+    border-width: 5px;
     border-radius: 5px;
     background-color: transparent;
 }
