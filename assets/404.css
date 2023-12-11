@@ -69,6 +69,7 @@ body {
 #back:hover {
     background-color: var(--text);
     color: var(--highlight);
+    box-shadow: var(--licorice) 0.5vw 0 2vw;
 }
 
 #content {
