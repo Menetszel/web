@@ -49,12 +49,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 1vw;
+    width: fit-content;
     color: var(--text);
     border: 2px solid var(--text);
     border-radius: 5px;
     background-color: transparent;
+    display: block;
     padding: 10px;
-    position: absolute;
+    position: relative;
     transition-duration: 0.5s;
     text-align: center;
     margin: auto;
