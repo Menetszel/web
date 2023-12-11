@@ -1,6 +1,7 @@
 :root {
     --licorice: #30262a;
     --text: white;
+    --highlight: #002f32;
 }
 
 body {
@@ -60,17 +61,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 1vw;
-    color: white;
-    border: 2px solid white;
+    color: var(--text);
+    border: 2px solid var(--text);
     border-radius: 5px;
     background-color: transparent;
     padding: 10px;
     left: 65vw;
     top: 50vh;
     position: absolute;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 #back:hover {
-    background-color: white;
+    background-color: var(--text);
+    color: var(--highlight);
 }
