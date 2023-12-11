@@ -61,8 +61,7 @@ body {
     font-weight: bolder;
     font-size: 1vw;
     color: white;
-    border-color: 2px;
-    border-width: 5px;
+    border: 2px solid white;
     border-radius: 5px;
     background-color: transparent;
 }
