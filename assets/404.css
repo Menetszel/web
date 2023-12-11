@@ -67,6 +67,7 @@ body {
     padding: 10px;
     left: 65vw;
     top: 50vh;
+    position: absolute;
     transition-duration: 1s;
 }
 
