@@ -45,7 +45,7 @@ body {
     margin: auto;
 }
 
-button {
+#explore {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 1vw;
@@ -54,13 +54,13 @@ button {
     border-radius: 5px;
     background-color: transparent;
     padding: 10px;
-    position: relative;
+    position: absolute;
     transition-duration: 0.5s;
     text-align: center;
     margin: auto;
 }
 
-button:hover {
+#explore:hover {
     background-color: var(--text);
     color: var(--highlight);
     box-shadow: var(--secondary) 0.5vw 0 2vw;
@@ -68,7 +68,7 @@ button:hover {
 
 #content {
     position: relative;
-    top: 50vh;
+    top: 60vh;
     margin: auto;
     padding: auto;
 }
