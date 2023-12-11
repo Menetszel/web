@@ -45,6 +45,14 @@ body {
     margin: auto;
 }
 
+#exploreoptions {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    width: 100%;
+}
+
 #explore {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
