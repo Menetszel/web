@@ -1,5 +1,5 @@
 :root {
-    --licorice: #251d1d;
+    --secondary: #251d1d;
     --text: white;
     --highlight: #021660;
 }
@@ -13,7 +13,7 @@ body {
 #credits {
     font-family: 'Roboto', sans-serif;
     color: var(--text);
-    text-shadow: var(--licorice) 0.5vw 0 2vw;
+    text-shadow: var(--secondary) 0.5vw 0 2vw;
     font-size: 10px;
     right: 5px;
     bottom: 5px;
@@ -26,7 +26,7 @@ body {
     width: 30vw;
     position: relative;
     color: var(--text);
-    text-shadow: var(--licorice) 0.5vw 0 2vw;
+    text-shadow: var(--secondary) 0.5vw 0 2vw;
     display: block;
 }
 
@@ -36,7 +36,7 @@ body {
     width: 30vw;
     position: relative;
     color: var(--text);
-    text-shadow: var(--licorice) 0.5vw 0 2vw;
+    text-shadow: var(--secondary) 0.5vw 0 2vw;
     display:block;
 }
 
@@ -50,7 +50,7 @@ body {
     transform: rotate(270deg);
     position: absolute;
     color: var(--text);
-    text-shadow: var(--licorice) 0.5vw 0 2vw;
+    text-shadow: var(--secondary) 0.5vw 0 2vw;
 }
 
 #back {
@@ -69,7 +69,7 @@ body {
 #back:hover {
     background-color: var(--text);
     color: var(--highlight);
-    box-shadow: var(--licorice) 0.5vw 0 2vw;
+    box-shadow: var(--secondary) 0.5vw 0 2vw;
 }
 
 #content {
