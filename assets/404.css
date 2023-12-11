@@ -24,9 +24,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     width: 30vw;
-    left: 65vw;
-    top: 20vh;
-    position: absolute;
+    position: relative;
     color: var(--text);
     text-shadow: var(--licorice) 0.5vw 0 2vw;
     display: block;
@@ -36,9 +34,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     width: 30vw;
-    left: 65vw;
-    top: 30vh;
-    position: absolute;
+    position: relative;
     color: var(--text);
     text-shadow: var(--licorice) 0.5vw 0 2vw;
     display:block;
@@ -68,11 +64,17 @@ body {
     padding: 10px;
     left: 65vw;
     top: 50vh;
-    position: absolute;
+    position: relative;
     transition-duration: 0.5s;
 }
 
 #back:hover {
     background-color: var(--text);
     color: var(--highlight);
+}
+
+#content {
+    position: absolute;
+    left: 65vw;
+    top: 20vh;
 }
