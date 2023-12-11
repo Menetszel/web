@@ -70,5 +70,5 @@ body {
     position: relative;
     top: 60vh;
     margin: auto;
-    padding: auto;
+    justify-content: center;
 }
