@@ -62,8 +62,6 @@ body {
     border-radius: 5px;
     background-color: transparent;
     padding: 10px;
-    left: 65vw;
-    top: 50vh;
     position: relative;
     transition-duration: 0.5s;
 }
