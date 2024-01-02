@@ -1,6 +1,6 @@
 const client = contentful.createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    space: window.netlifyEnv.CONTENTFUL_SPACE_ID;
+    accessToken: window.netlifyEnv.CONTENTFUL_ACCESS_TOKEN;
 });
 
 // Fetch content from Contentful
