@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="/assets/home.css">
+    <title>Contentful + Netlify Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="content-container">
         <!-- Content will be inserted here dynamically -->
     </div>
-    <script src="/assets/scripts/node_modules/@contentful/rich-text-types/package.json"></script>
-    <script src="/assets/scripts/home.js"></script>
+    <!-- Include the Contentful SDK directly in the HTML file -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@7.14.0/dist/contentful.browser.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
